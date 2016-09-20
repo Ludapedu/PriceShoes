@@ -1,0 +1,18 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <fragment class="com.example.priceshoes.Fragmento"
+        android:id="@+id/Fragmento1"
+        android:layout_weight="40"
+        android:layout_width="match_parent"
+        android:layout_height="0px"/>
+    
+    <fragment class="com.example.priceshoes.Fragmento2"
+        android:id="@+id/Fragmento2"
+        android:layout_weight="60"
+        android:layout_width="match_parent"
+        android:layout_height="0px"/>
+</LinearLayout>

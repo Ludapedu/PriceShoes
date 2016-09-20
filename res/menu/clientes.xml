@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.priceshoes.Clientes" >
+
+     <item 
+        android:id="@+id/MenuResumen"
+        android:title="Resumen"
+        android:icon="@drawable/back"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"/>
+     
+     <item 
+        android:id="@+id/AgregarCliente"
+        android:title="Agregar Cliente"
+        android:icon="@drawable/addclient"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"/>
+</menu>

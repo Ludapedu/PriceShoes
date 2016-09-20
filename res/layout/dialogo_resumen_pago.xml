@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#222"
+    android:orientation="horizontal"
+    android:padding="3dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/btn_Dialogo_Resumen_Pago"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|right"
+            android:src="@android:drawable/btn_dialog"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lbl_Dialogo_MostrarPrecio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Monto"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/txt_Dialogo_Resumen_Pago_Monto"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:ems="10"
+                android:gravity="center_horizontal"
+                android:inputType="number" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btn_Dialogo_Pago_Guardar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/string_Guardar"
+                    android:textSize="10sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_Dialogo_Pago_Cancelar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/string_Cancelar"
+                    android:textSize="10sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_Dialogo_Pago_Editar_Guardar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/string_Guardar"
+                    android:textSize="10sp"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/btn_Dialogo_Pago_Editar_Cancelar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="@string/string_Cancelar"
+                    android:textSize="10sp"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+            <DatePicker
+                android:id="@+id/Dialogo_datePicker_Pago"
+                android:layout_width="wrap_content"
+                android:layout_height="138dp"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+ 
+</LinearLayout>
