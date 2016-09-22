@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.priceshoes.Resumen_Cliente" >
+
+     <item 
+        android:id="@+id/MenuResumen"
+        android:title="Resumen"
+        android:icon="@drawable/home"
+        android:orderInCategory="1"
+        android:showAsAction="always"/>
+    
+    <item 
+        android:id="@+id/MenuClientes"
+        android:title="Clientes"
+        android:icon="@drawable/back"
+        android:orderInCategory="2"
+        android:showAsAction="always"/>
+    
+    <item 
+        android:id="@+id/AgregarPedido"
+        android:title="Pedido"
+        android:icon="@drawable/addsale"
+    	android:orderInCategory="3"
+        android:showAsAction="always"/>
+    
+    <item 
+        android:id="@+id/AgregarPago"
+        android:title="Pago"
+        android:icon="@drawable/addmoney"
+    	android:orderInCategory="4"
+        android:showAsAction="always"/>
+
+</menu>
