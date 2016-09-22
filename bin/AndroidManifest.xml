@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.priceshoes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+    <permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >        
+        </permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="false"
+        android:theme="@style/AppTheme"
+         android:screenOrientation="portrait">
+        <activity
+            android:name=".Resumen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Clientes"
+            android:label="@string/title_activity_clientes"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Ventas"
+            android:label="@string/title_activity_ventas"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Compras"
+            android:label="@string/title_activity_compras"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Resumen_Cliente"
+            android:label="@string/title_activity_resumen__cliente"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Pagos"
+            android:label="@string/title_activity_pagos"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Fragmento"
+            android:label="@string/title_activity_fragment"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Fragmento2"
+            android:label="@string/title_activity_fragmento2"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".FragmentHolder"
+            android:label="@string/title_activity_fragment_holder"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>
