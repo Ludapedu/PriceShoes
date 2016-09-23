@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragment.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\activity_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\layout_list_views.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\layout_list_views.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\layout_datos.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\layout_datos.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\custom_layout.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\custom_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ventas.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\activity_ventas.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\layout_menu_lateral.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\layout_menu_lateral.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragment_holder.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\activity_fragment_holder.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragmento2.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\activity_fragmento2.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pagos.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\activity_pagos.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\dialogo_resumen_pago.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\dialogo_resumen_pago.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\dialogo_clientes_detalle.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\dialogo_clientes_detalle.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_fragmento2.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\fragment_fragmento2.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\dialogo_resumen_pedido.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\dialogo_resumen_pedido.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\activity_clientes.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\activity_clientes.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\ingresar_activacion.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\ingresar_activacion.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\activity_resumen.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\activity_resumen.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\activity_resumen__cliente.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\activity_resumen__cliente.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\menu_desplegable.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\menu_desplegable.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\layout\\layout_list_clientes.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\layout\\layout_list_clientes.xml"
+    }
+]

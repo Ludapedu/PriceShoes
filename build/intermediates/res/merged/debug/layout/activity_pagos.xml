@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lbl_Pagos_Pagos_General"
+            android:layout_width="wrap_content"
+            android:textColor="#111111"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Pagos" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/btn_Pagos_Realizados"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:src="@drawable/pagorecibido"
+                android:text="@string/string_Realizados"
+                android:textSize="15sp"
+                android:visibility="invisible" />
+
+            <ImageButton
+                android:id="@+id/btn_Pagos_Pendientes"
+                android:layout_width="wrap_content"
+                android:src="@drawable/pagopendiente"
+                android:paddingLeft="150dp"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:text="@string/string_Pendientes"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lista_Pagos_Todos"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_Pagos_LeyendaMostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textColor="#111111"
+            android:text="@string/string_Monto_Abonado"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/lbl_Dialogo_MarcaMostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#111111"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    
+</LinearLayout>

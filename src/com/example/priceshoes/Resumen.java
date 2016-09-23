@@ -1,32 +1,50 @@
 package com.example.priceshoes;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.nio.channels.FileChannel;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
+import java.util.concurrent.ExecutionException;
 
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Application;
 import android.app.Dialog;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Typeface;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v4.widget.SlidingPaneLayout.LayoutParams;
+import android.telephony.TelephonyManager;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -34,6 +52,13 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.os.Environment;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
+import com.google.android.gms.common.GooglePlayServicesUtil;
+
+import org.json.JSONException;
+import org.json.JSONObject;
 
 public class Resumen extends Activity implements OnItemClickListener{
 
@@ -80,13 +105,60 @@ public class Resumen extends Activity implements OnItemClickListener{
 	Util oper = new Util();
 	private static final String[] values = {"Clientes" , "Pagos"};
 	public Context contexto = this;
+	private BroadcastReceiver mRegistrationBroadcastReceiver;
+	private String FechaPrueba;
+	private String CodigoRegistro;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_resumen);
 		setActionBar("Resumen");
-		
+
+		TelephonyManager tm = (TelephonyManager)getSystemService(TELEPHONY_SERVICE);
+		String IMEI = tm.getDeviceId();
+
+		VerificarCodigoRegistro(IMEI);
+
+
+
+	mRegistrationBroadcastReceiver = new BroadcastReceiver() {
+		@Override
+		public void onReceive(Context context, Intent intent) {
+				if(intent.getAction().endsWith(GCMRegistrationIntentService.REGISTRATION_SUCCESS))
+				{
+					String token = intent.getStringExtra("token");
+				}
+			else if(intent.getAction().equals(GCMRegistrationIntentService.REGISTRATION_ERROR))
+				{
+
+				}
+			else
+				{
+
+				}
+			}
+		};
+
+		int resultCode = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(getApplicationContext());
+		if(resultCode != ConnectionResult.SUCCESS)
+		{
+			if(GoogleApiAvailability.getInstance().isUserResolvableError(resultCode))
+			{
+				Toast.makeText(getApplicationContext(), "Google Play no esta disponible", Toast.LENGTH_SHORT).show();
+				GooglePlayServicesUtil.showErrorNotification(resultCode, getApplicationContext());
+			}
+			else
+			{
+				Toast.makeText(getApplicationContext(), "El dispositivo no soporta Google Play Services", Toast.LENGTH_SHORT).show();
+			}
+
+		}
+		else
+		{
+			Intent intent = new Intent(this, GCMRegistrationIntentService.class);
+			startService(intent);
+		}
 		
 		Typeface font = Typeface.createFromAsset(getAssets(), "gloriahallelujah.ttf");
 		
@@ -336,14 +408,121 @@ public class Resumen extends Activity implements OnItemClickListener{
 			Toast.makeText(getApplicationContext(), ex.toString(), Toast.LENGTH_LONG).show();
 		}
 		
-	}		
+	}
 
+	private void VerificarCodigoRegistro(String IMEI) {
+		SharedPreferences registro = contexto.getSharedPreferences("CodigoRegistro", contexto.MODE_PRIVATE);
+		SharedPreferences fecha = contexto.getSharedPreferences("FechaPrueba", contexto.MODE_PRIVATE);
+		String ClaveRegistro = registro.getString("CodigoRegistro","");
+		String FechaPrueba = fecha.getString("FechaPrueba","");
+		if(ClaveRegistro.isEmpty())
+		{
+			if(!FechaPrueba.isEmpty()) {
+				Calendar c = Calendar.getInstance();
+				Long timemillis = Long.valueOf(FechaPrueba);
+				c.setTimeInMillis(timemillis);
+				Calendar curr = Calendar.getInstance();
+				curr.setTimeInMillis(System.currentTimeMillis());
+				Log.e("fecha de prueba", c.getTime().toString());
+				Log.e("fecha hoy", curr.getTime().toString());
+				if (c.getTimeInMillis() < System.currentTimeMillis()) {
+					PedirCodigoRegistro(ClaveRegistro);
+				}
+				else
+				{
+					return;
+				}
+			}
+			if(!Internet())
+			{
+				AlertDialog.Builder builder = new AlertDialog.Builder(contexto);
+				builder.setMessage("Se requiere conexión a internet para la primer configuración")
+						.setCancelable(false)
+						.setPositiveButton("Aceptar", new DialogInterface.OnClickListener()
+						{
+							@Override
+							public void onClick(DialogInterface dialogInterface, int i) {
+								finish();
+							}
+						});
+				AlertDialog alert = builder.create();
+				alert.show();
+			}
+			else
+			{
+				ObtenerDatosRegistro(IMEI);
+			}
 
-	/*@Override
+		}
+	}
+
+	private void ObtenerDatosRegistro(String IMEI) {
+		try
+		{
+			String datos = new EstatusRegistroCliente().execute(IMEI).get();
+			if (datos == null)
+			{
+				RegistrarDispositivo(IMEI);
+			}
+			else {
+				FechaPrueba =  new JSONObject(datos).getString("FechaPrueba").substring(6, 19);
+				CodigoRegistro = new JSONObject(datos).getString("CodigoRegistro");
+				Long timemillis = Long.valueOf(FechaPrueba);
+				Calendar c = Calendar.getInstance();
+				c.setTimeInMillis(timemillis);
+				Calendar curr = Calendar.getInstance();
+				curr.setTimeInMillis(System.currentTimeMillis());
+				Log.e("fecha de prueba", c.getTime().toString());
+				Log.e("fecha hoy", curr.getTime().toString());
+				if (c.getTimeInMillis() < System.currentTimeMillis()) {
+					PedirCodigoRegistro(CodigoRegistro);
+				}
+				else
+				{
+					SharedPreferences preferences = contexto.getSharedPreferences("FechaPrueba", Context.MODE_PRIVATE);
+					SharedPreferences.Editor editor =  preferences.edit();
+					editor.putString("FechaPrueba", FechaPrueba);
+					editor.commit();
+					String FechaPrueba = preferences.getString("FechaPrueba","");
+					Log.v("Fecha Prueba", FechaPrueba);
+				}
+			}
+		}
+		catch (Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+	private void RegistrarDispositivo(String IMEI) {
+		new RegistroCliente().execute(IMEI);
+		ObtenerDatosRegistro(IMEI);
+	}
+
+	private Boolean Internet()
+	{
+		ConnectivityManager connectivity = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
+		if (connectivity != null) {
+			NetworkInfo info = connectivity.getActiveNetworkInfo();
+			if (info != null) {
+				if (info.isConnected()) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+
+	@Override
 	protected void onResume() {
 		super.onResume();
-		
-		Calendar expirationDate = Calendar.getInstance();
+
+		Log.v("Resumen", "OnResume");
+		LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
+				new IntentFilter((GCMRegistrationIntentService.REGISTRATION_SUCCESS)));
+		LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
+				new IntentFilter((GCMRegistrationIntentService.REGISTRATION_ERROR)));
+		/*Calendar expirationDate = Calendar.getInstance();
 	    expirationDate.set(2016,9,30); //Vence el 20 de Septiembre
 	    Calendar t = Calendar.getInstance();
 	    
@@ -365,9 +544,67 @@ public class Resumen extends Activity implements OnItemClickListener{
 	    	alert.show();
 	    	if(!alert.isShowing())
 	    	finish();
-	    }
-	}*/
-	
+	    }*/
+	}
+
+	@Override
+	protected void onPause() {
+		super.onPause();
+		Log.v("Resumen", "OnPause");
+		LocalBroadcastManager.getInstance(this).unregisterReceiver(mRegistrationBroadcastReceiver);
+	}
+
+	public void PedirCodigoRegistro(final String CodigoRegistro)
+	{
+		final Dialog ActivarApp = new Dialog(contexto,R.style.Theme_Dialog_Translucent);
+		ActivarApp.requestWindowFeature(Window.FEATURE_NO_TITLE);
+		ActivarApp.setCancelable(false);
+		ActivarApp.setContentView(R.layout.ingresar_activacion);
+
+		final EditText Codigo = (EditText) ActivarApp.findViewById(R.id.txt_codigo_activacion);
+		Button aceptar = (Button) ActivarApp.findViewById(R.id.btn_Registro_Aceptar);
+		Button cancelar = (Button) ActivarApp.findViewById(R.id.btn_Registro_Cancelar);
+		ActivarApp.show();
+		Window window = ActivarApp.getWindow();
+		window.setLayout(LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
+
+		cancelar.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				finish();
+			}
+		});
+
+		aceptar.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				if(Codigo.getText().toString().equals(""))
+				{
+					Toast.makeText(contexto, "Ingresa código de registro", Toast.LENGTH_SHORT).show();
+					return;
+				}
+				if(Codigo.getText().length() < 6)
+				{
+					Toast.makeText(contexto, "El código de registro debe ser de 6 digitos", Toast.LENGTH_SHORT).show();
+					return;
+				}
+				String Cod = Codigo.getText().toString();
+				if(!CodigoRegistro.equals(Cod))
+				{
+					Toast.makeText(contexto, "El código de registro no es válido", Toast.LENGTH_SHORT).show();
+					return;
+				}
+				SharedPreferences preferences = contexto.getSharedPreferences("CodigoRegistro", Context.MODE_PRIVATE);
+				SharedPreferences.Editor editor =  preferences.edit();
+				editor.putString("CodigoRegistro", Codigo.getText().toString());
+				editor.commit();
+				Toast.makeText(contexto, "Código de Registro Correcto", Toast.LENGTH_SHORT).show();
+				ActivarApp.dismiss();
+			}
+		});
+	}
+
+
 	public boolean onCreateOptionsMenu(android.view.Menu menu){
 		getMenuInflater().inflate(R.menu.resumen, menu);
 		return true;
@@ -396,21 +633,6 @@ public class Resumen extends Activity implements OnItemClickListener{
 	    actionBar.setDisplayShowHomeEnabled(false);
 	    //actionBar.setTitle(heading);
 	    actionBar.show();
-		
-		 /*ActionBar actionBar = getActionBar();
-		    actionBar.setDisplayOptions(actionBar.getDisplayOptions()
-		            | ActionBar.DISPLAY_SHOW_CUSTOM);
-		    ImageView imageView = new ImageView(actionBar.getThemedContext());
-		    imageView.setScaleType(ImageView.ScaleType.CENTER);
-		    imageView.setImageResource(R.drawable.clients);
-		    ActionBar.LayoutParams layoutParams = new ActionBar.LayoutParams(
-		            ActionBar.LayoutParams.WRAP_CONTENT,
-		            ActionBar.LayoutParams.WRAP_CONTENT, Gravity.RIGHT
-		                    | Gravity.CENTER_VERTICAL);
-		    layoutParams.rightMargin = 40;
-		    imageView.setLayoutParams(layoutParams);
-		    actionBar.setCustomView(imageView);*/
-
 	}
 
 
