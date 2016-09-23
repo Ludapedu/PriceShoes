@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\anim\\zoomforward_out.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\anim\\zoomforward_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\anim\\zoomforward_in.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\anim\\zoomforward_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\anim\\right_out.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\anim\\right_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\anim\\left_out.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\anim\\left_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\anim\\right_in.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\anim\\right_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\anim\\left_in.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\anim\\left_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\anim\\fade_in.xml"
+    }
+]

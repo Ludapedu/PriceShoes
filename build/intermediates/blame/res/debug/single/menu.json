@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\menu\\pagos.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\menu\\pagos.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\menu\\ventas.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\menu\\ventas.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\menu\\resumen__cliente.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\menu\\resumen__cliente.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\menu\\fragmento2.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\menu\\fragmento2.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\menu\\fragment_holder.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\menu\\fragment_holder.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\menu\\resumen.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\menu\\resumen.xml"
+    },
+    {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\menu\\clientes.xml",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\menu\\clientes.xml"
+    }
+]
