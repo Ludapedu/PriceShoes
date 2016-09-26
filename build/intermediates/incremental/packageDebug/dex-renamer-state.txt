@@ -1,4 +1,4 @@
-#Fri Sep 23 08:34:28 CDT 2016
+#Mon Sep 26 12:06:39 CDT 2016
 base.0=C\:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_d2b0ea7100fb80d140dae795c0e8055fe4e1e096
 renamed.1=classes2.dex
 renamed.0=classes.dex

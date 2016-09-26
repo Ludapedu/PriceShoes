@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:2:1-106:12
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:2:1-115:12
 	package
 		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:3:5-37
 	android:versionName
@@ -15,12 +15,14 @@ ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:2:1-106:
 		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.gms:play-services-gcm:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.0\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\AndroidManifest.xml:17:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.0\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.1\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\AndroidManifest.xml:17:5-42
 MERGED from [com.android.support:support-v4:24.0.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-tasks:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.0\AndroidManifest.xml:3:5-42
-MERGED from [com.google.android.gms:play-services-iid:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.0\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.1\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.0\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\AndroidManifest.xml:3:5-42
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:24.0.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
@@ -33,8 +35,8 @@ ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:10:5-76
 		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:10:17-73
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:11:5-66
-MERGED from [com.google.android.gms:play-services-gcm:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.0\AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.1\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.1\AndroidManifest.xml:21:5-66
 	android:name
 		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.WAKE_LOCK
@@ -60,13 +62,15 @@ ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:16:5-79
 	android:name
 		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:16:22-76
 application
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:18:5-104:19
-MERGED from [com.google.android.gms:play-services-gcm:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.0\AndroidManifest.xml:23:5-19
-MERGED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.0\AndroidManifest.xml:19:5-21:19
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:18:5-113:19
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.1\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:24.0.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-tasks:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.0\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-iid:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.0\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.1\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-appindexing:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.0\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-common:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\AndroidManifest.xml:4:5-7:19
 	android:screenOrientation
 		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:24:10-46
 	android:label
@@ -117,122 +121,144 @@ category#com.example.priceshoes
 ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:40:17-67
 	android:name
 		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:40:27-64
-service#com.example.priceshoes.GCMPushReceiverService
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:43:9-47:19
-	android:exported
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:43:57-81
+receiver#com.example.priceshoes.NetworkStateReceiver
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:43:9-47:20
 	android:name
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:43:18-56
-intent-filter#com.google.android.c2dm.intent.RECEIVE
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:43:19-55
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
 ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:44:13-46:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:45:17-78
+	android:name
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:45:25-76
+service#com.example.priceshoes.GCMPushReceiverService
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:48:9-52:19
+	android:exported
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:48:57-81
+	android:name
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:48:18-56
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:49:13-51:29
 service#com.example.priceshoes.GCMRegistrationIntentService
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:49:9-53:19
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:54:9-58:19
 	android:exported
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:49:63-87
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:54:63-87
 	android:name
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:49:18-62
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:54:18-62
 intent-filter#com.google.android.gms.iid.InstanceID
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:50:13-52:29
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:55:13-57:29
 action#com.google.android.gms.iid.InstanceID
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:51:17-87
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:56:17-87
 	android:name
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:51:25-77
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:56:25-77
 activity#com.example.priceshoes.Clientes
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:56:9-61:20
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:61:9-66:20
 	android:screenOrientation
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:60:13-49
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:65:13-49
 	android:label
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:58:13-60
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:63:13-60
 	android:noHistory
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:59:13-37
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:64:13-37
 	android:name
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:57:13-37
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:62:13-37
 activity#com.example.priceshoes.Ventas
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:62:9-67:20
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:67:9-72:20
 	android:screenOrientation
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:66:13-49
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:71:13-49
 	android:label
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:64:13-58
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:69:13-58
 	android:noHistory
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:65:13-37
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:70:13-37
 	android:name
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:63:13-35
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:68:13-35
 activity#com.example.priceshoes.Compras
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:68:9-73:20
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:73:9-78:20
 	android:screenOrientation
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:72:13-49
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:77:13-49
 	android:label
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:70:13-59
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:75:13-59
 	android:noHistory
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:71:13-37
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:76:13-37
 	android:name
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:69:13-36
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:74:13-36
 activity#com.example.priceshoes.Resumen_Cliente
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:74:9-79:20
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:79:9-84:20
 	android:screenOrientation
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:78:13-49
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:83:13-49
 	android:label
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:76:13-68
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:81:13-68
 	android:noHistory
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:77:13-37
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:82:13-37
 	android:name
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:75:13-44
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:80:13-44
 activity#com.example.priceshoes.Pagos
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:80:9-85:20
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:85:9-90:20
 	android:screenOrientation
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:84:13-49
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:89:13-49
 	android:label
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:82:13-57
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:87:13-57
 	android:noHistory
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:83:13-37
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:88:13-37
 	android:name
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:81:13-34
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:86:13-34
 activity#com.example.priceshoes.Fragmento
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:86:9-91:20
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:91:9-96:20
 	android:screenOrientation
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:90:13-49
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:95:13-49
 	android:label
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:88:13-60
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:93:13-60
 	android:noHistory
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:89:13-37
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:94:13-37
 	android:name
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:87:13-38
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:92:13-38
 activity#com.example.priceshoes.Fragmento2
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:92:9-97:20
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:97:9-102:20
 	android:screenOrientation
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:96:13-49
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:101:13-49
 	android:label
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:94:13-62
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:99:13-62
 	android:noHistory
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:95:13-37
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:100:13-37
 	android:name
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:93:13-39
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:98:13-39
 activity#com.example.priceshoes.FragmentHolder
-ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:98:9-103:20
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:103:9-108:20
 	android:screenOrientation
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:102:13-49
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:107:13-49
 	android:label
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:100:13-67
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:105:13-67
 	android:noHistory
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:101:13-37
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:106:13-37
 	android:name
-		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:99:13-43
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.0\AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.0\AndroidManifest.xml:20:5-81
-	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.0\AndroidManifest.xml:20:22-79
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\AndroidManifest.xml:19:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\AndroidManifest.xml:19:86-145
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\AndroidManifest.xml:19:19-85
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:104:13-43
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.0\AndroidManifest.xml:20:9-121
+ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:110:9-112:69
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.0\AndroidManifest.xml:20:66-119
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:112:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.0\AndroidManifest.xml:20:20-65
+		ADDED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml:111:13-58
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.1\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.1\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.1\AndroidManifest.xml:20:22-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\AndroidManifest.xml:19:19-85
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\AndroidManifest.xml:6:19-78
+		INJECTED from C:\Users\luis.perez\workspace\PriceShoes\AndroidManifest.xml
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.6.0] C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\AndroidManifest.xml:6:79-124

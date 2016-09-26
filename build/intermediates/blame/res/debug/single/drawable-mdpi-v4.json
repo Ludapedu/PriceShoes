@@ -1,7 +1,7 @@
 [
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_focused.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\clientes.png",
@@ -17,23 +17,23 @@
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
-    },
-    {
-        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\backup.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\drawable-mdpi\\backup.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\addmoney.png",
         "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\drawable-mdpi\\addmoney.png"
     },
     {
+        "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\backup.png",
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\res\\drawable-mdpi\\backup.png"
+    },
+    {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_ic_googleplayservices.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_ic_googleplayservices.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_ic_googleplayservices.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\cancelar.png",
@@ -41,7 +41,7 @@
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\addsale.png",
@@ -53,11 +53,11 @@
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
@@ -73,11 +73,11 @@
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\logo.png",
@@ -93,7 +93,7 @@
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_disabled.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pagos.png",
@@ -117,11 +117,11 @@
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\editar.png",
@@ -129,15 +129,15 @@
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_focused.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\borrar.png",
@@ -145,7 +145,7 @@
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_pressed.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\blueline.png",
@@ -153,11 +153,11 @@
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_focused.9.png",
-        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
+        "source": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.6.1\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "C:\\Users\\luis.perez\\workspace\\PriceShoes\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\pagorecibido.png",

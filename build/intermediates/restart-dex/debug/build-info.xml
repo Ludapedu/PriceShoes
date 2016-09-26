@@ -4,9 +4,9 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="1353775759526416"
+    timestamp="1624845984590062"
     token="7337407830198031960"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
@@ -16,28 +16,21 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="17" />
+        duration="13" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
-        location="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-        type="DEX" />
+        location="C:\Users\luis.perez\workspace\PriceShoes\build\outputs\apk\PriceShoes-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="1352914761346814"
+        timestamp="1624845984590062"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\luis.perez\workspace\PriceShoes\build\outputs\apk\PriceShoes-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="1353775759526416"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\5\slice_4\classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

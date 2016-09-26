@@ -3,21 +3,84 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="12e94600a0ea3beae6ea0f1d18a0768ded5bc1ae">
-        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.6.0_52a78d814e38ae4bfa176927ea19b6a8a4210ebb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\luis.perez\android-sdks\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
         <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_29cd95b5c262fd315e8bcfc438c1c5d454c8ee46\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="dd802dcd4f736025afbd1106373d18692d368f18">
+        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d2b0ea7100fb80d140dae795c0e8055fe4e1e096\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.1_ec1a6beb87d1521c5772b3696065734493cba6eb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="bd11b3899f275668a9355f19cea2c2320f5f9d14">
+        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.6.0_c8a7edc98a718c599b23dad781be555327df1ba3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_6170a4dcb1092eb79ff54f9fe85eb9158cf31762\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ba2f029ff37297295d2d197ac6e957b361bfccaf">
+        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.6.0_00cd7b5d2987e359031bd787b651984d56d708f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.1_cb48ac5db357752a4e397d55c6c02cf81ba9edf0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.6.1_e9aef5548b81112c0a7bb27ab3809bae33bac2af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.6.1_3a3f650d513a529279eca1f50fde94260f6c3196\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -30,33 +93,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="955059af6dbe711c2189aa0b82de67edb5d8c42a">
-        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_d2b0ea7100fb80d140dae795c0e8055fe4e1e096\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="93a0248fe0524b4fa2d16f5f7c3cff8452796454">
-        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.6.0_c731d5aa31ce8b7d3f6c1935621de6cb19380e07\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.6.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="ce5313bb5ccc0c1e10c995e4efb2f2b08c848b39">
-        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.6.0_ab319ac49f7ba25a05da23874a07ab59ddcff99a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\luis.perez\workspace\PriceShoes\libs\android-support-v4.jar"
         jumboMode="true"
         optimize="true"
@@ -66,21 +102,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.0\jars\classes.jar"
+        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="614b2ffd04818e865e1c02cc149c6b92e518e862">
-        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.0_cc68bd34c11dce29dfdee4e0011d4436f00dded5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="f6afcfbf1989631424f9ceaae6ee24777d3cf6ba">
-        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.6.0_a113c20bb630da9f455cb19f3a8ff0842e0d06cb\classes.dex" />
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.6.1_da32ddc699abcefa2caad081cc6a33cf8de0b6ab\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -88,17 +115,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="c66225aafbe0998f29d1361feb6f83f5ac8cd5dc">
+        sha1="e3be38c3c1b15a6b34a256c651caca3d6565d7e7">
         <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_fbe854dbe0f5337f7744a318fc80400648dc7b88\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="C:\Users\luis.perez\workspace\PriceShoes\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_6170a4dcb1092eb79ff54f9fe85eb9158cf31762\classes.dex" />
     </item>
 
 </items>

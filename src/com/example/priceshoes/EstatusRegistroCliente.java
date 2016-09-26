@@ -18,16 +18,10 @@ import java.util.List;
 public class EstatusRegistroCliente extends AsyncTask<String, Void, String> {
 
     public String respuesta;
-    @Override
-    protected void onPostExecute(String Datos) {
-        super.onPostExecute(Datos);
-        
-    }
 
     @Override
     protected String doInBackground(String... IMEI) {
         String imei = IMEI[0];
-        ArrayList<String> result = new ArrayList<>();
 
         String Stringurl = "http://wcfzapatos.azurewebsites.net/ServicioZapatos.svc/ObtenerDatosRegistro?imei=" + imei;
         try {
